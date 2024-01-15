@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    transition: opacity 2s;
+}
+
+.intro-text {
+    margin: 5% 28% 5% 28%;
+    
+}
+
+.intro-text p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 180%;
+    padding-bottom: 25px;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+    cursor:pointer;
+}
+
+
+
+
+/*  MEDIA QUERIES FOR DIFFERENT SCREEN SIZES   */
+
+
+
+
+@media (max-width: 480px) {
+    .intro-text {
+        margin: 7% 15% 5% 15%;
+        
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .intro-text {
+        margin: 7% 10% 5% 10%;
+        
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .intro-text {
+        margin: 7% 20% 5% 20%;
+        
+    }
+  }

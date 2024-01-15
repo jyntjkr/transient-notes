@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Transient Notes</title>
+</head>
+<body id="page1">
+    <div class="intro-text">
+        <p>This project is inspired by <a href="https://depue.design">Will DePue</a>. I deeply resonated with the idea of Ephemeral Notes, so I created my own version.</p>
+
+        <p>Free writing is something I have been doing for a long time. It has helped me gain clarity over my thoughts, in turn, developing my thinking process.
+            We think we know something very well until we write about it. Brain is a funny thing.
+             Mostly, we are living in our heads. 
+             When we are forced to Realize our ideas either by talking or writing about them,
+              we find out reality is vividly different than what we thought.
+
+        <p>Writing down your ideas exposes you. When you read what you were thinking, it often feels shitty.
+            
+        Writing is the greatest superpower a human can have. And doing it efficiently can reap you unimaginable yields.</p>
+            
+        <p> This is a disappearing notepad for thinkers. All words take 120 seconds
+            to entirely disappear. If you want to keep something, feel free to write it
+            again - the same way you would call a thought back from memory. There is no option for text-formatting because complexity is rarely a proxy for intelligence.
+          </p>
+          <p>Wishing you insightful reflections...</p>
+    <p class="start-button"><a onclick="fadeOutAndRedirect()" >Start >></a></p>
+    </div>
+
+    <script>
+        function fadeOutAndRedirect() {
+          document.body.style.opacity = 0;
+    
+          setTimeout(function() {
+        window.location.href = "writeup.html";
+      }, 2000);
+         
+         }
+      </script>
+</body>
+</html>
